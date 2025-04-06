@@ -1,0 +1,140 @@
+/* About.css */
+.about-container {
+    width: 100vw;
+    max-width: 100%;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about-hero {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-hero h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.about-hero h2 {
+    font-size: 1.8rem;
+    color: #27ae60;
+    margin-bottom: 5px;
+}
+
+.about-hero h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+}
+
+.features-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+}
+
+.feature-icon img {
+    width: 100%;
+    height: auto;
+}
+
+.feature h4 {
+    font-size: 1.3rem;
+    color: #27ae60;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+.questions-section {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.questions-section h4 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.question-items {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.question-items p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.contact-link {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: #219653;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .about-hero h2 {
+        font-size: 1.5rem;
+    }
+    
+    .features-section {
+        grid-template-columns: 1fr;
+    }
+}

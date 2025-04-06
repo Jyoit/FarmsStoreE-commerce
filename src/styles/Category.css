@@ -1,0 +1,89 @@
+.category-section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .category-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #228B22; /* Green Color */
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 cards per row */
+    gap: 50px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Category card styles */
+  .category-card {
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Keep default text color */
+  }
+  
+  /* Background colors for each card */
+  .category-card:nth-child(1) { background: #FDF5DE; } /* Fruits */
+  .category-card:nth-child(2) { background: #EDFFE3; } /* Vegetables */
+  .category-card:nth-child(3) { background: #FAEAEA; } /* Nuts */
+  .category-card:nth-child(4) { background: #EEEEF8; } /* Spices */
+  .category-card:nth-child(5) { background: #F9F6D7; } /* Beverages */
+  .category-card:nth-child(6) { background: #FAEAEA; } /* Rice */
+  .category-card:nth-child(7) { background: #EEEEF8; } /* Sweet Craving */
+  .category-card:nth-child(8) { background: #F9F6D7; } /* Dairy Products */
+  .category-card:nth-child(9) { background: #EDFFE3; } /* Snacks */
+  .category-card:nth-child(10) { background: #FDF5DE; } /* Tea, Green Tea */
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .category-img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .category-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .category-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .category-grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 cards per row for medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .category-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .category-grid {
+      grid-template-columns: repeat(1, 1fr); /* 1 card per row for mobile */
+    }
+  }
+  

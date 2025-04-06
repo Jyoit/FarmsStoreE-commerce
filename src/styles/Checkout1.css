@@ -1,0 +1,83 @@
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    font-family: Arial, sans-serif;
+    gap: 20px;
+  }
+  
+  /* Shipping Details */
+  .shipping-details {
+    width: 60%;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .shipping-details h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .shipping-details label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .shipping-details input {
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Order Summary */
+  .order-summary {
+    width: 35%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .order-summary h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .order-summary p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .order-summary .total {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .order-summary .points {
+    font-size: 12px;
+    color: #28a745;
+    margin-top: 10px;
+  }
+  
+  .order-summary button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .order-summary button:hover {
+    background-color: #0056b3;
+  }
