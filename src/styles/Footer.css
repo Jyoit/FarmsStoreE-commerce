@@ -9,42 +9,60 @@
 .newsletter {
   background-color: #5A4428;
   color: white;
-  padding: 20px;
-  border-radius: 30px;
-  width: 80%;
+  padding: 20px 30px;
+  border-radius: 50px;
+  width: 90%;
   margin: 0 auto 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .newsletter h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  flex: 1;
+  white-space: nowrap;
 }
 
 .newsletter-box {
+  flex: 2;
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-radius: 30px;
-  padding: 5px;
+  gap: 10px;
+  border-radius: 50px;
+  background-color: transparent;
 }
 
 .newsletter-box input {
-  background: #5A4428;
-  border-bottom: 2px solid white;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffffa8;
   padding: 10px;
   flex-grow: 1;
-  /* border-radius: 30px; */
+  color: white;
+  font-size: 14px;
   outline: none;
+  min-width: 200px;
+}
+
+.newsletter-box input::placeholder {
+  color: #cfc5b8;
+  font-size: 12px;
 }
 
 .newsletter-box button {
-  background-color: #5A4428;
+  background-color: transparent;
+  border: 1px solid #fff;
   color: white;
-  padding: 10px 15px;
-  border-radius: 50%;
-  border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Footer Content */
